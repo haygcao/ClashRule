@@ -3,19 +3,23 @@
 payload:
 #  - PROCESS-NAME,electron.exe
   - DOMAIN-KEYWORD,emby
-  - DOMAIN-KEYWORD,magpie
   - DOMAIN-SUFFIX,emby.riches.cloud
   - DOMAIN-SUFFIX,emby.misakaf.xyz
   - DOMAIN-SUFFIX,embyaz.misakaf.xyz
   - DOMAIN-SUFFIX,emby.milkcat.net
-  - DOMAIN-SUFFIX,pornemby.maoxiong.cloud
-  - DOMAIN-SUFFIX,maoxiong.cloud
   - DOMAIN-SUFFIX,cu.poloemby.xyz
   - DOMAIN-SUFFIX,zzl.poloemby.xyz
   - DOMAIN-SUFFIX,zf.hk01.77is.top
   - DOMAIN-SUFFIX,sg.gcx920110.com
   - DOMAIN-SUFFIX,hs.gcx920110.com
   - DOMAIN-SUFFIX,play.charontv.com
+  - IP-CIDR,161.97.148.156/24,no-resolve
+# Porn
   - DOMAIN-SUFFIX,wptv.ii00.cc
   - DOMAIN-SUFFIX,wgtv.ii00.cc
-  - IP-CIDR,161.97.148.156/24,no-resolve
+# 猫熊
+  - DOMAIN-SUFFIX,pornemby.maoxiong.cloud
+  - DOMAIN-SUFFIX,maoxiong.cloud
+# Magpie
+  - DOMAIN-SUFFIX,023168.xyz
+  - DOMAIN-SUFFIX,223789.xyz
